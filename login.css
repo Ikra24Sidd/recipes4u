@@ -1,0 +1,185 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  background-image: url(images/login.png);
+  font-family:"Raleway";
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: absolute; */
+}
+.form {
+  position:absolute;
+  overflow:visible;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:33vw;
+  height: 85vh;
+  background:#fff;
+  /* border-radius: 3%; */
+  border: 1px solid black;
+  /* align-content: center; */
+}
+
+.form-heads{
+  font-family: Verdana;
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+.form .tab-header {
+  height:50px;
+  line-height:50px;
+  font-weight: 560;
+  font-family: Cambria;
+  font-size: 18px;
+}
+.form .tab-header > div {
+  width:50%;
+  float:left;
+  text-align:center;
+  background:#fff;
+  color:#555;
+  cursor:pointer;
+}
+
+.form-element #email,#name,#password,#email1,#password1{
+  width:25vw;
+  height: 7vh;
+  margin-bottom: 2vh;
+  border-radius: 0%;
+  border: 1px solid rgb(173, 167, 167);
+}
+
+#demo1,#demo3{
+  font-size: 19px;
+  font-family:'Candara';
+  color: rgb(34, 158, 55);
+  font-weight: 600;
+}
+#demo2,#demo4{
+  font-size: 19px;
+  font-family:'Candara';
+  color: red;
+  font-weight: 600;
+}
+
+#signUp, #logIn{
+  width:20vw;
+  height: 7vh;
+  margin-left: 8%;
+  border-radius: 0%;
+  margin-bottom: 2vh;
+}
+
+.switch_user{
+  /* margin-left: 12%; */
+  text-align: center;
+  font-family: "Helvetica";
+  margin-bottom: 2vh;
+}
+
+ 
+
+#remme{
+    font-size: 17px;
+  font-family: "Helvetica";
+}
+.form .tab-header > div.active {
+  background:#70e7d3;
+  color:#111;
+}
+.form .tab-content {
+  padding:30px;
+  margin-left: 4%;
+}
+.form .tab-content .form-element {
+  margin:10px 0px;
+}
+.form .tab-content .form-element input {
+  width:100%;
+  padding:10px;
+  border:1px solid #aaa;
+  font-size:16px;
+  background:#f5f5f5;
+  border-radius:5px;
+  outline:none;
+}
+.form .tab-content .form-element input[type="checkbox"] {
+  width:30px;
+  margin:8px 0px;
+  margin-left:-5px;
+}
+.form .tab-content .form-element label {
+  color:#111;
+}
+.form .tab-content .form-element button {
+  margin-top:5px;
+  width:100%;
+  padding:10px;
+  border:none;
+  outline:none;
+  background:#9f48e6;
+  color:#f5f5f5;
+  font-size:16px;
+  text-transform:uppercase;
+  cursor:pointer;
+  border-radius:5px;
+}
+.form .tab-content > div.active {
+  display:block;
+}
+.tab-content > div {
+  display:none;
+}
+#switch
+{
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color:rgb(66, 207, 66);
+    /* border-radius: 0%; */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    border:none;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+#div1{
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: "Georgia";
+    color: royalblue;
+    padding: 5px;
+    width: 40%;
+    margin-left: 3%;
+    cursor: pointer;
+    margin-right: 5%;
+    text-align: center;
+    border: 1px solid rgb(158, 155, 155);
+    background-color: white;
+    border-radius: 0%;
+}
+
+#div2{
+  font-size: 1.2rem;
+  font-weight: 550;
+  font-family: "Georgia";
+  color: black;
+  padding: 5px;
+  width: 40%;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0%;
+  border: 1px solid rgb(158, 155, 155);
+}
+
+#div2 img{
+  height: 3vh;
+  width: 2vw;
+}
